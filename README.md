@@ -23,10 +23,11 @@ Refer to the PDF documents in the "Documents" folder for additional insights.
 /Documents: Reference PDFs for research papers. <br>
 
 ## Visuals
-![WhatsApp Image 2024-03-01 at 12 43 20](https://github.com/Svlsqz/IAstro_2023/assets/100167884/4f26be18-10f0-4d0e-a945-bd17ce10a68d)
+
+![WhatsApp Image 2024-03-01 at 12 43 25](https://github.com/Svlsqz/IAstro_2023/assets/100167884/00f7a129-acec-4c25-8c36-a4ef718749b4)
 
 
-![WhatsApp Image 2024-03-01 at 12 43 25](https://github.com/Svlsqz/IAstro_2023/assets/100167884/64a67bf9-1c2d-48bb-b9a0-4ef10cd72e04)
+![WhatsApp Image 2024-03-01 at 12 43 27](https://github.com/Svlsqz/IAstro_2023/assets/100167884/1494e6e7-051e-419a-a996-f1568ba912d9)
 
 
-![WhatsApp Image 2024-03-01 at 12 43 26](https://github.com/Svlsqz/IAstro_2023/assets/100167884/e86ae573-7a84-4902-a086-a872599b221f)
+![WhatsApp Image 2024-03-01 at 12 43 26](https://github.com/Svlsqz/IAstro_2023/assets/100167884/c2f0ef59-b4a4-4919-8cd1-b4b3fa1c04db)
