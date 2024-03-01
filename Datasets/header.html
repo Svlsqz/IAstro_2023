@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The COSMOS2020 catalogue</title>
+</head>
+
+<body>
+<h1>The COSMOS2020 catalogue <small>Release 1 | v2.2 | March 2023</small> </h1>
+<p>
+  <b>This is the release site for the COSMOS2020 catalogs</b>. In
+addition to this website, the catalogues are now being made available
+through <a href="https://www.eso.org/sci/observing/phase3.html" >ESO's PHASE3 system</a> and later through CDS.
+
+Catalogues are described in detail in
+  <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ac3078">Weaver, Kauffmann et al. 2022, ApJS</a>. A local
+  version is <a
+href="https://cosmos2020.calet.org/catalogues/Weaver_2022_ApJS_258_11.pdf">here</a>.
+
+This release supersedes previous releases.<b> The principal difference
+compared to our previous release is that this new release is fully
+IVOA-compliant.</b> <a
+href="https://cosmos2020.calet.org/catalogues/COSMOS2020-ESOP3-24.6.22.pdf">This
+document</a> describes the changes in detail. 
+
+As of March 2023, we have patched a minor bug
+in the magnitude error values in the v2.1 Farmer catalogue. The Classic
+catalog is not affected, but has been renamed to v2.2 for consistency.
+
+
+  We also provide
+  a <a href="https://github.com/cosmic-dawn/cosmos2020-readcat">python notebook</a>
+  demonstrating how to use the catalogues. </p>
+
+  <h2>Secondary access site</h2>
+
+<p>A compressed tar file containing all the files here <a href="https://dropsu.sorbonne-universite.fr/s/DFTDG8PteKm4tYi">can be downloaded
+  here</a> (8.6Gb) (note that this does not include the FITS detection
+  image). Alternatively files individually
+  from this page. </p>
+
+<h2>Construction of the catalogues</h2>
+
+<p>We derived the photometry with several software packages:
+  <a href="https://www.astromatic.net/software/sextractor/">Source Extractor</a> with IRACLEAN, and
+  <a href="https://github.com/astroweaver/the_farmer">The Farmer</a> which is built on <a href="http://thetractor.org/">The Tractor</a> and will be described in a forthcoming paper. For each catalogue, photometric
+  and physical parameters are provided by <a href="http://cesam.lam.fr/lephare/">Le Phare</a>
+  and <a href="https://eazy-py.readthedocs.io/en/latest/">EAzY</a>.</p>
+
+<h2>Catalogue descriptions</h2>
+
+<p>A detailed description of these data products is provided in the <a
+href="https://cosmos2020.calet.org/catalogues/COSMOS2020-ESOP3-24.6.22.pdf">catalogue release document</a>, and <a href="COSMOS2020_DR4_1_1.pdf">supplementary document</a> regarding the recent bug fix (see Sect. 2.3 for details).
+
+
+Here, we simply list each file with a brief description.</p>
+
+<p>The contents of each redshift distribution file can be found in their respective
+file headers.</p>
+
+<table class ="preset" style="max-height:1000;">
+    <caption><b>COSMOS2020 catalogues</b> </caption>
+<tbody>
+<thead>
+ <tr>
+   <th>Filename</th>
+   <th>Description</th>
+ </tr>
+</thead>
+ <tr>
+  <td data-label="Name">COSMOS2020_CLASSIC_R1_v2.2_p3.fits</td>
+  <td data-label="Description">Photometric catalogue "Classic" created
+    using SExtractor and IRACLEAN</td>
+ </tr>
+ <tr>
+  <td data-label="Name">COSMOS2020_CLASSIC_R1_v2.2.header</td>
+  <td data-label="Description">Header description file for the Classic catalogue</td>
+ </tr>
+ <tr>
+ <td data-label="Name">COSMOS2020_FARMER_R1_v2.2_p3.fits</td>
+ <td data-label="Description">Photometric catalogue "Farmer" created using The Farmer / The Tractor</td>
+ </tr>
+ <tr>
+ <td data-label="Name">COSMOS2020_FARMER_R1_v2.2.header</td>
+ <td data-label="Description">Header description file for the Farmer catalogue</td>
+ </tr>
+</tbody>
+</table>
+<hr>
+
+
+<table class ="preset" style="max-height:1000">
+    <caption><b>COSMOS2020 Probabilty redshift distributions (./PZ)</b> </caption>
+<tbody>
+  <thead>
+   <tr>
+     <th>Filename</th>
+     <th>Description</th>
+   </tr>
+  </thead>
+  <tr>
+  <td data-label="Name">COSMOS2020_CLASSIC_R1_v2.2_LEPHARE_PZ_p3.fits</td>
+  <td data-label="Description">P(z) array from Le Phare for Classic</td>
+  </tr>
+  <tr>
+  <td data-label="Name">COSMOS2020_CLASSIC_R1_v2.2_EAZY_CZ_p3.fits</td>
+  <td data-label="Description">Cumulative Probability Distribution from EAzY for Classic</td>
+  </tr>
+  <tr>
+  <td data-label="Name">COSMOS2020_FARMER_R1_v2.2_LEPHARE_PZ_p3.fits</td>
+  <td data-label="Description">P(z) array from Le Phare for Farmer</td>
+  </tr>
+  <tr>
+  <td data-label="Name">COSMOS2020_FARMER_R1_v2.2_EAZY_CZ_p3.fits</td>
+  <td data-label="Description">Cumulative Probability Distribution from EAzY for Farmer</td>
+  </tr>
+ </tbody>
+ </table>
+ <hr>
+
+
+
+<table class ="preset" style="max-height:1000">
+    <caption><b>COSMOS2020 masks (./MASKS)</b> </caption>
+<tbody>
+<thead>
+ <tr>
+   <th>Filename</th>
+   <th>Description</th>
+ </tr>
+</thead>
+ <tr>
+  <td data-label="Name">flags_in_catalog.png </td>
+  <td data-label="Description">Image of the masked region</td>
+ </tr>
+ <tr>
+  <td data-label="Name">MASK_HSC-stars_griz_COSMOS2020.reg</td>
+  <td data-label="Description">Stars in HSC area</td>
+ </tr>
+ <tr>
+  <td data-label="Name">MASK_SUPCAM_COSMOS2020.reg</td>
+  <td data-label="Description">Suprime-cam mask</td>
+ </tr>
+ <tr>
+  <td data-label="Name">MASK_UDEEP_COSMOS2020.reg</td>
+  <td data-label="Description">UltraVISTA "ultra deep" region</td>
+ </tr>
+ <tr>
+  <td data-label="Name">MASK_UVISTA_COSMOS2020.reg</td>
+  <td data-label="Description">UltraVISTA region </td>
+ </tr>
+ <tr>
+  <td data-label="Name">MASKS_README.txt </td>
+  <td data-label="Description">README describing the masks</td>
+ </tr>
+ <tr>
+ </tbody>
+ </table>
+ <hr>
+
+ <table class ="preset" style="max-height:1000">
+    <caption><b>Other files (./misc)</b> </caption>
+<tbody>
+<thead>
+ <tr>
+   <th>Filename</th>
+   <th>Description</th>
+ </tr>
+</thead>
+ <tr>
+  <td data-label="Name">COSMOS2020_prepare_apertures.txt</td>
+  <td data-label="Description">Code fragment to apply photometric
+    corrections in the Classic catalogue</td>
+ </tr>
+ <tr>
+  <td data-label="Name">eazy_zcdf_pdf.txt</td>
+  <td data-label="Description">Code fragment to convert compressed redshift CDF to PDF
+    for EAzY files</td>
+  </tr>
+   <tr>
+  <td data-label="Name">COSMOS2020_izYJHKs_chimean-v3_p3.fits</td>
+  <td data-label="Description">CHI-MEAN detection image used to
+    prepare COSMOS2020</td>
+ </tr>
+ </tbody>
+ </table>
+ <hr>
+ <footer>
+   <p><i>The COSMOS2020 catalogue team</i></p>
+ </footer>
+
+<!-- hhmts start -->Last modified: Fri Jun 24 15:57:26 CEST 2022 <!-- hhmts end -->
+</body> </html>
